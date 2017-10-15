@@ -11,7 +11,7 @@ bday_clock <- function(month, day) {
 
   bday_str <- paste(month,
                     day,
-                    lubridate::year(Sys.Date()) + 1,
+                    next_year(),
                     sep = "/")
 
   bday <- as.Date(bday_str, format = "%B/%d/%Y")

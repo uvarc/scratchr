@@ -11,7 +11,12 @@
 
 hello <- function(name = "user", animal = NULL) {
 
-  msg <- paste0("hello ", name, " ...")
+  msg <- paste0("hello ",
+                name,
+                " ...\n",
+                "you better get busy\n",
+                next_year(),
+                " will be here soon :)")
 
   if(is.null(animal)) {
 
