@@ -9,6 +9,8 @@
 #' bday_clock("January", 1)
 bday_clock <- function(month, day) {
 
+  stopifnot(month %in% base::month.name)
+
   bday_str <- paste(month,
                     day,
                     next_year(),
