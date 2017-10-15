@@ -1,6 +1,5 @@
 #' Next year helper function
 #'
-#' @return
 #'
 #'
 next_year <- function() {

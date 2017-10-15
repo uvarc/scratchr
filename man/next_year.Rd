@@ -6,9 +6,6 @@
 \usage{
 next_year()
 }
-\value{
-
-}
 \description{
 Next year helper function
 }
