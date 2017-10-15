@@ -1,0 +1,57 @@
+---
+title: "Getting Started with scratchr"
+author: "VP Nagraj"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Introduction
+
+**scratchr** is a package ... a real *R* package ... with all kinds of not-so-useful functions built-in. To get started, try running `browseVignettes(package = "scratchr")` 
+... and you're back here!
+
+## `hello()`
+
+One of two functions that ships with **scratchr**, `hello()` will say hello. It also features very important ASCII illustrations of animals, creatures, star wars characters, etc courtesy of the **cowsay** package. It takes two arguments: 
+
+- *name*: what you would like the program to call you
+- *animal*: what kind of critter you would like displayed
+
+```{r}
+library(scratchr)
+hello(name = "vp", animal = "spider")
+```
+
+**nb** if you leave animal blank, you'll get a random creature ... and if you leave name blank, you'll be a "user"
+
+```{r}
+hello()
+```
+
+## `bday_clock()`
+
+Ever wonder how many days until your birthday?
+
+```{r}
+bday_clock(month = "January", day = 1)
+```
+
+## `futurepop`
+
+**scratchr** also includes a built-in time series dataset. This data is a combination of the `uspop` data (see `?datasets::uspop`) and some completely arbitrary population projections that run through 2030.
+
+```{r}
+futurepop
+str(futurepop)
+```
+
+It seems that the population is increasing ...
+
+```{r}
+plot(futurepop)
+```
+
+
