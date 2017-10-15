@@ -6,6 +6,8 @@ Author: VP Nagraj
 Maintainer: vpnagraj <vpnagraj@virginia.edu>
 Description: This package contains several functions that were written with showcasing package development tools in mind.
 License: GPL-3
+Imports: 
+  cowsay
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000

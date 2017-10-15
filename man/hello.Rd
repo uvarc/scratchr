@@ -4,10 +4,12 @@
 \alias{hello}
 \title{Say hello}
 \usage{
-hello(name = "user")
+hello(name = "user", animal = NULL)
 }
 \arguments{
-\item{name}{specify what you would like the program to call you;}
+\item{name}{specify what you would like the program to call you; defaults to user}
+
+\item{animal}{this argument allows you to choose an animal to accompany your message; animals to choose from are}
 }
 \description{
 Say hello
