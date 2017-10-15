@@ -1,12 +1,11 @@
 Package: scratchr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: miscellaneous functions to demo package development
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: VP Nagraj
+Maintainer: vpnagraj <vpnagraj@virginia.edu>
+Description: This package contains several functions that were written with showcasing package development tools in mind.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
