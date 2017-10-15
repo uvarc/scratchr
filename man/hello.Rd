@@ -9,7 +9,7 @@ hello(name = "user", animal = NULL)
 \arguments{
 \item{name}{specify what you would like the program to call you; defaults to user}
 
-\item{animal}{this argument allows you to choose an animal to accompany your message; animals to choose from are}
+\item{animal}{this argument allows you to choose an animal to accompany your message; for more information on animals to choose from see \code{\link[cowsay]{animals}}}
 }
 \description{
 Say hello

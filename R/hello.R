@@ -1,7 +1,7 @@
 #' Say hello
 #'
 #' @param name specify what you would like the program to call you; defaults to user
-#' @param animal this argument allows you to choose an animal to accompany your message; animals to choose from are
+#' @param animal this argument allows you to choose an animal to accompany your message; for more information on animals to choose from see \code{\link[cowsay]{animals}}
 #'
 #' @export
 #'
